@@ -131,7 +131,11 @@
 
 
       <div class="red-panda">
-        <!-- insert picture element -->
+        <picture>
+            <source media="(max-width:600px)" srcset="red-panda600.jpg">
+            <source media="(min-width:601px)" srcset="red-panda1200.jpg">
+            <img src="red-panda1200.jpeg" alt="Red Panda">
+        </picture>
       </div>
 
     </main>
